@@ -1,9 +1,12 @@
+package hw4Q3JavaVariablesConstructorAndMethod;
+
+import hw4Q3JavaVariablesConstructorAndMethod.MyProfile;
 
 public class TestMyProfile {
-
 	public static void main(String[] args) {
-	MyProfile myProfile=new MyProfile();
-	myProfile.myProfile();
+
+		MyProfile aberah = new MyProfile();
+		aberah.myProfile();
 
 	}
 
