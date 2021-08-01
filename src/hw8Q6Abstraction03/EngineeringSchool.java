@@ -1,4 +1,4 @@
-package hw7Q4abstraction02;
+package hw8Q6Abstraction03;
 
 /*You have 3 abstract class names --MedicalSchool, EngineeringSchool, and NursingSchool. 
  * how many keywords are used for the inheritance in Java for Abstract Class? 

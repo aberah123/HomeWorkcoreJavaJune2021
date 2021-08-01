@@ -1,4 +1,4 @@
-package hw7Q4abstraction02;
+package hw8Q6Abstraction03;
 /*Create one default and one static method gymnasium and library inside interface "University".
  * Create one default and one static method morgue and pharmacy inside interface "Hospital". 
  * Create also one default and one static method dorm and studyRoom inside interface "College". 

@@ -1,27 +1,26 @@
-package hw7Q4abstraction02;
-
+package hw8Q6Abstraction03;
 /*You have 3 regular class names -- ColumbiaUniversity, NYUniversity, RockefellerUniversity.
  * how many keywords are used for the inheritance in Java for a regular Class?
  * Can an regular Class inherit other Abstract Class or a regular class or interface? 
  * How many inheritances is possible by a regular Class?
  * Use the all of above regular Classes and use the keywords to answer my questions.*/
-public class ColumbiaUniversity extends NYUniversity {
+
+public class RockefellerUniversity implements College {
 
 	/*
-	 * Abstract method declared Here abstract void chemistry(); is not possible to
-	 * create Regular Class contains only non abstract methods, doesn't contain
-	 * abstract methods
+	 * Abstract method declared Here abstract void math(); is not possible to create
+	 * Regular Class contains only non abstract methods, doesn't contain abstract
+	 * methods
 	 */
 
-	public void biology() { // Non-abstract method implemented
-		System.out.println("Biology of Columbia University");
+	public void statistics() {// Non-abstract method implemented
+		System.out.println("Statistics of RockefellerUniversity");
 
 	}
 
-	public ColumbiaUniversity() { // This is called Default Constructor
+	public RockefellerUniversity() {// This is called Default Constructor
 
 	}
-
 }
 /*
  * Here is Two Keywords(implemented and extends) are used for the inheritance

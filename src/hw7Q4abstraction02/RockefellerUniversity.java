@@ -5,7 +5,7 @@ package hw7Q4abstraction02;
  * How many inheritances is possible by a regular Class?
  * Use the all of above regular Classes and use the keywords to answer my questions.*/
 
-public class RockefellerUniversity implements College{
+public class RockefellerUniversity implements College {
 
 	/*
 	 * Abstract method declared Here abstract void math(); is not possible to create
@@ -25,6 +25,7 @@ public class RockefellerUniversity implements College{
 /*
  * Here is Two Keywords(implemented and extends) are used for the inheritance
  * for a regular class A regular class can inherit only one regular class or
- * only one abstract class but can not inherit an Interface Only one Inheritance is possible by a regular class
- * Implements keyword can inherit more than one interface
+ * only one abstract class but can not inherit an Interface Only one Inheritance
+ * is possible by a regular class Implements keyword can inherit more than one
+ * interface
  */

@@ -1,4 +1,4 @@
-package hw7Q4abstraction02;
+package hw8Q6Abstraction03;
 
 /*You have 3 regular class names -- ColumbiaUniversity, NYUniversity, RockefellerUniversity.
  * how many keywords are used for the inheritance in Java for a regular Class?
