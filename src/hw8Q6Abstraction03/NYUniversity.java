@@ -5,7 +5,7 @@ package hw8Q6Abstraction03;
  * How many inheritances is possible by a regular Class?
  * Use the all of above regular Classes and use the keywords to answer my questions.*/
 
-public class NYUniversity implements College, Hospital {
+public class NYUniversity  {
 
 	/*
 	 * Abstract method declared Here abstract void anthropology(); is not possible

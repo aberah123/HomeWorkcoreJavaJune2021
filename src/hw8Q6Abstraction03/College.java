@@ -10,7 +10,7 @@ package hw8Q6Abstraction03;
 //Interface cannot be instantiated(cannot create object). 
 //An interface is a collection of methods that are defined but not implemented.
 
-public interface College extends University {
+public interface College {
 
 	// method declared in an interface but can not be implemented
 	// From Java 1.8, Only default and static type method can implemented in
@@ -18,18 +18,19 @@ public interface College extends University {
 	// public void commonRoom();// method declared
 
 	public default void dorm() { // Default method
-
+      System.out.println("this is called default method of interface");
+      
+      
 	}
 
 	public static void studyRoom() { // Static method
-
+     System.out.println("This is called static method of interface");
+     
+     
 	}
 
-	/*
-	 * two keywords (extents and implements) are used inheritance in Java One
-	 * extends keywords are used for the inheritance for Interface. An interface
-	 * cannot inherit a regular class or abstract class. One extends keywords are
-	 * used for the inheritance for Interface. An Interface cannot inherit a regular
-	 * class or abstract class. only one inheritances is possible by an interface.
+	/* one keywords (extends)are used for the inheritance for interface
+	 * Interface can inherit other interface but can not inherit a regular class or abstract class
+	 * More than one interfaces are inherited by an interface by extends keywords.
 	 */
 }

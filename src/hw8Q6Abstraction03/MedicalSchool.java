@@ -1,13 +1,21 @@
 package hw8Q6Abstraction03;
-/*You have 3 abstract class names --MedicalSchool, EngineeringSchool, and NursingSchool. 
- * how many keywords are used for the inheritance in Java for Abstract Class? 
- * Can an Abstract Class inherit other Abstract Class or a regular class or interface? 
- * How many inheritances is possible by an Abstract Class? 
- * Use the all of above Abstract Classes and use the keywords to answer my questions.*/
+/*/*Create interface VocationalSchool and a method vocationalInfo inside it. 
+* Create another interface AeronauticalSchool and a method aeronauticalInfo inside it. 
+* See the below inheritance. 
+* University extends College, Hospital.
+* ColumbiaUniversity extends MedicalSchool implements University, VocationalSchool. 
+* MedicalSchool extends NursingSchool. 
+* NursingSchool extends RockefellerUniversity. 
+* RockefellerUniversity extends EngineeringSchool implements AeronauticalSchool.
+* EngineeringSchool extends NYUniversity. 
+* Follow all the above hierarchy to inherit the methods. 
+* Now create a class TestInstitute. 
+* Then Instantiate ColumbiaUniversity , RockefellerUniversity, University, Hospital, MedicalSchool and NursingSchool one by one. 
+ Call all the possible methods from ColumbiaUniversity , RockefellerUniversity, University, Hospital, MedicalSchool and NursingSchool.*/
 
 //This is an abstract class
 //We must have to put abstract keyword in an abstract class
-public abstract class MedicalSchool implements College {
+public abstract class MedicalSchool extends NursingSchool {
 
 	public MedicalSchool() {// This is called default constructor
 
@@ -15,14 +23,18 @@ public abstract class MedicalSchool implements College {
 
 	// method can be implemented and declared in an abstract class
 	// we must have to put abstract keyword inside abstract method
-	public void anatomyLab() { // method implemented and this is called non-abstract method.
-		System.out.println("Anatomy Lab of Medical School");
+	public abstract void anatomyLab(); // method declared must have to put abstract keyword
+	
 
-	}
+	
 
-	public abstract void biochemistryLab(); // method declared and this is called abstract method.
+	public void biochemistryLab() { // method declared and this is called abstract method.
+      System.out.println("This biochemistryLab is from MedicalSchool");
+      
+}
 
 }
+
 /*
  * Two keywords(extends and implements)are used for the inheritance in Java for
  * abstract class. yes,An abstract class can inherit only one abstract class or

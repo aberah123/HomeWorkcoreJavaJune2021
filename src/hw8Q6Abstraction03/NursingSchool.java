@@ -1,13 +1,15 @@
 package hw8Q6Abstraction03;
-/*You have 3 abstract class names --MedicalSchool, EngineeringSchool, and NursingSchool. 
- * how many keywords are used for the inheritance in Java for Abstract Class? 
- * Can an Abstract Class inherit other Abstract Class or a regular class or interface? 
- * How many inheritances is possible by an Abstract Class? 
- * Use the all of above Abstract Classes and use the keywords to answer my questions.*/
-
+/*NursingSchool extends RockefellerUniversity. 
+ * RockefellerUniversity extends EngineeringSchool implements AeronauticalSchool.
+ * EngineeringSchool extends NYUniversity. 
+ * Follow all the above hierarchy to inherit the methods. 
+ * Now create a class TestInstitute. 
+ * Then Instantiate ColumbiaUniversity , RockefellerUniversity, University, Hospital, MedicalSchool and NursingSchool one by one. 
+ Call all the possible methods from ColumbiaUniversity , RockefellerUniversity, University, Hospital, MedicalSchool and NursingSchool.
+*/
 public abstract class NursingSchool extends RockefellerUniversity {
 
-	public NursingSchool() { // Default Constructor
+	public NursingSchool() { // Default Constructor is declared here
 
 	}
 
