@@ -1,0 +1,26 @@
+package java_oop_exam;
+
+/*Assume AppleWatch is an abstract class which has 2 method: One is abstractClassInfo [which is a non-abstract method, print out all the features of an abstract class compared with Interface, regular class].
+ * what type of method would be the other one - name appleWatchInfo?
+ * Can you create a constructor inside Abstract Class? 
+ * Create two interface names Watch, . And a regular class name AppleWatchSeries5. 
+ * Can you make a relationship with AppleWatch, Watch, DigitalWatch, and AppleWatchSeries5?
+ */
+public abstract class AppleWatch {
+	public AppleWatch() {
+		System.out.println("This is a constructor of abstract class");
+	}
+
+	// Here non-abstract method is implemented
+	public void abstractClassInfo() {
+		System.out.println("An abstract class can not be instantiated.\n"
+				+ "An abstract class must be declared with an abstract keyword.\n"
+				+ "An abstract class can inherit only one abstract or one regular class by extends keyword.\n"
+				+ "An abstract class inherit more than one interface by implements keyword");
+
+	}
+
+	// This is an abstract method which is declared.
+	public abstract void appleWatchInfo();
+
+}

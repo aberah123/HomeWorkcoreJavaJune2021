@@ -10,7 +10,7 @@ public abstract class EngineeringSchool {
 
 	// method can be implemented and declared in an abstract class
 	// we must have to put abstract keyword inside abstract method
-	public abstract void mechanicalLab(); // method declared and this is called abstract method.
+	public abstract void mechanicalLab(); // method declared and this is a abstract method.
 
 	public void computerLab() {// method implemented and this is called non-abstract method.
 
