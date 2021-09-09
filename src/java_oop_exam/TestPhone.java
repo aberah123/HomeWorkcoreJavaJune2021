@@ -86,16 +86,21 @@ public class TestPhone {
 		configuredIphone6.materials();
 
 	}
-	/* Hierarchical Inheritance- is a kind of inheritance where more than one class is inherited from a single parent or base class.
-	    here, phone is a hierarchical inheritance.
-	    
-	    Multilevel Inheritance- when a class extends a class , which extends another class then this is called multilevel inheritance.
-	    Here phone interface extends pager and wakitaki.
-        This is multilevel inheritance.
-        An interface extanding other interfaces,but in Java does not allow multiple inheritance when its class.
-        
-         Single Inheritance- When a derived class inherits properties and behavior from a single parent class/base class/superclass, it is
-         called single inheritance. Here DigitalWatch is a parent/super/base class and Watch is a child/sub class.
-         
-      */
+	/*
+	  Hierarchical Inheritance- is a kind of inheritance where more than one class
+	  is inherited from a single parent or base class. here, phone is a
+	  hierarchical inheritance.
+	  
+	  Multilevel Inheritance- when a class extends a class , which extends another
+	  class then this is called multilevel inheritance. Here phone interface
+	  extends pager and wakitaki. This is multilevel inheritance. An interface
+	  extanding other interfaces,but in Java does not allow multiple inheritance
+	  when its class.
+	  
+	  Single Inheritance- When a derived class inherits properties and behavior
+	  from a single parent class/base class/superclass, it is called single
+	  inheritance. Here DigitalWatch is a parent/super/base class and Watch is a
+	  child/sub class.
+	  
+	 */
 }
